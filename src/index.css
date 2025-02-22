@@ -1,0 +1,21 @@
+body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .carouselItem{
+        width: 100%;
+        background-image: url("./assets/Images/BannerImage.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        
+      }
+@import "tailwindcss";
+
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
