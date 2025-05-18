@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <Link to="/" className="block text-lg py-2 px-3 text-white bg-[#9C27B0] rounded-sm md:bg-transparent md:text-[#9C27B0] md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</Link>
+          <Link to="/" className="block text-lg py-2 px-3 text-white bg-[#9C27B0] rounded-sm md:bg-transparent md:text-[#9C27B0] md:p-0 dark:text-white " >Home</Link>
         </li>
         <li>
           <Link to="/about" className="block text-lg py-2 px-3  rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-[#9C27B0] md:p-0 text-white  hover:bg-gray-700 hover:text-white">About</Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
           <Link to="/work" className="block text-lg py-2 px-3  rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-[#9C27B0] md:p-0 text-white  hover:bg-gray-700 hover:text-white">Case Study</Link>
         </li>
         <li>
-          <Link to="/" className="block text-lg py-2 px-3  rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-[#9C27B0] md:p-0 text-white  hover:bg-gray-700 hover:text-white">Blog</Link>
+          <Link to="/blog" className="block text-lg py-2 px-3  rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-[#9C27B0] md:p-0 text-white  hover:bg-gray-700 hover:text-white">Blog</Link>
         </li>
         <li>
           <Link to="/contact" className="block text-lg py-2 px-3  rounded-sm  md:hover:bg-transparent md:border-0 md:hover:text-[#9C27B0] md:p-0 text-white  hover:bg-gray-700 hover:text-white">Contact Us</Link>

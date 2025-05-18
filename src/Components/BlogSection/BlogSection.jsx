@@ -3,10 +3,7 @@ import BlurCircle from '../BlurCircle/BlurCircle'
 import SubHeading from '../Subheading/SubHeading'
 const BlogSection = () => {
   return (
-    <div className='w-full min-h-screen overflow-x-hidden flex items-center justify-center'>
-         <div className="absolute w-fit -rotate-14  h-fit top-0 -right-15">
-        <BlurCircle />
-      </div>
+    <div className='w-full min-h-screen flex items-center justify-center'>
       <div className="py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-6">
         <div className="mx-auto mb-8 w-full lg:mb-16 gap-3 flex flex-col">
           <SubHeading text="Our" span="Digital MArketing" moreText="Services" />

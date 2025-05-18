@@ -6,7 +6,7 @@ import { FaPhone } from "react-icons/fa6";
 import BlurCircle from '../BlurCircle/BlurCircle'
 const ContactSection = () => {
   return (
-        <section class="relative overflow-x-hidden">
+        <section class="relative">
             <div className='absolute w-fit -rotate-14  h-fit -top-20 -right-10'>
         <BlurCircle/>
         </div>

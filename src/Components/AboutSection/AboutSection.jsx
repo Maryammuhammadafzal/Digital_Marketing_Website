@@ -3,8 +3,8 @@ import SubHeading from '../Subheading/SubHeading'
 import BlurCircle from '../BlurCircle/BlurCircle'
 const AboutSection = () => {
   return (
-        <div className="relative overflow-x-hidden about w-[80%] max-lg:w-[90%] max-md:w-[100%] min-h-screen flex justify-center mx-auto items-center p-3">
-        <div className='absolute w-fit rotate-14 h-fit -top-10 -left-50'>
+        <div className="relative bg-black w-full max-lg:w-[90%] max-md:w-[100%] min-h-screen flex justify-center mx-auto items-center ">
+        <div className='absolute w-fit rotate-14 h-fit -top-10 -left-20 z-50'>
         <BlurCircle/>
         </div>
         <div className="content w-[80%] max-md:w-[90%]  max-lg:w-[98%] gap-3 h-fit flex flex-col justify-center items-center">

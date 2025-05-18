@@ -4,11 +4,6 @@ import HeroImage from '../../assets/Images/HeroImage.png'
 import BlurCircle from '../BlurCircle/BlurCircle'
 const Hero = () => {
   return (
-        <div className='relative overflow-x-hidden'>
-        <div className='absolute w-fit -rotate-14  h-fit -top-3 -right-10'>
-        <BlurCircle/>
-        </div>
-        <Navbar/>
         <section className="text-white w-full min-h-screen max-md:flex-col flex gap-3">
         <div className="grid max-w-screen-xl px-4 py-8 max-lg:w-[90%] mx-auto  xl:gap-0  lg:gap-8 lg:py-16 lg:grid-cols-12">
             <div className="mr-auto place-self-center max-lg:col-span-5  lg:col-span-7">
@@ -27,7 +22,6 @@ const Hero = () => {
             </div>                
         </div>
     </section>
-        </div>
   )
 }
 

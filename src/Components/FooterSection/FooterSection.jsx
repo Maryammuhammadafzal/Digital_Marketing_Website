@@ -8,7 +8,7 @@ import BlurCircle from '../BlurCircle/BlurCircle'
 import { Link } from 'react-router';
 const FooterSection = () => {
   return (
-        <footer class="p-4 relative overflow-x-hidden text-white">
+        <footer class="p-4 relative text-white">
             <div className='absolute w-fit rotate-14  h-fit -top-20 -left-15'>
         <BlurCircle/>
         </div>

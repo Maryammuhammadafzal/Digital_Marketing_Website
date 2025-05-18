@@ -12,9 +12,7 @@ import FooterSection from '../../Components/FooterSection/FooterSection'
 import BlogSection from '../../Components/BlogSection/BlogSection'
 const Home = () => {
   return (
-    <div className='bg-[#121212] w-full min-h-screen  flex gap-3 overflow-x-hidden flex-col'>
-      
-      
+    <div className='bg-[#121212] w-full min-h-screen  flex gap-3 flex-col'>
       <Hero/>
       <Banner/>
       <AboutSection/>
@@ -24,7 +22,6 @@ const Home = () => {
       <TestimonialSection/>
       <BlogSection/>
       <ContactSection/>
-      <FooterSection/>
     </div>
   )
 }

@@ -13,7 +13,7 @@ const TestimonialSection = () => {
   return (
   
 
-<section className='relative overflow-x-hidden'>
+<section className='relative'>
 <div className='absolute w-fit rotate-14 h-fit top-0 -left-15'>
         <BlurCircle/>
         </div>

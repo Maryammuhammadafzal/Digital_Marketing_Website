@@ -4,7 +4,7 @@ import BlurCircle from '../BlurCircle/BlurCircle'
 const SuccessStories = () => {
   return (
    
-<section className=" relative py-8 overflow-x-hidden px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+<section className=" relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
 <div className='absolute w-fit  h-fit -rotate-14 -top-10 -right-100'>
         <BlurCircle/>
         </div>

@@ -45,7 +45,7 @@ const WorkSection = () => {
         },
     ]
   return (
-        <section className=" w-full overflow-x-hidden relative">
+        <section className=" w-full relative">
             <div className='absolute w-fit rotate-14 h-fit top-0 -left-15'>
         <BlurCircle/>
         </div>
